@@ -18,25 +18,7 @@ numpy, pandas, scikit-learn
 nltk, matplotlib, seaborn
 Dataset Lazada Indonesian Reviews dari Kaggle.
 
-# 5. Struktur Folder
-project/
-│
-├── data/
-│   ├── raw/          # Dataset mentah (unduh dari Kaggle)
-│   ├── processed/    # Dataset setelah preprocessing
-│
-├── notebooks/
-│   ├── NLP_Project_sentiment_preprocessing.ipynb
-│   ├── NLP_Project_sentiment_classification.ipynb
-│
-├── results/
-│   ├── evaluation/   # Hasil evaluasi model (metrics, confusion matrix)
-│   ├── visualizations/ # Grafik dan visualisasi lainnya
-│
-│
-└── README.md         # Dokumentasi proyek
-
-# 6. Hasil Preprocessing
+# 5. Hasil Preprocessing
 Proses preprocessing adalah langkah awal untuk mempersiapkan data teks agar dapat digunakan dalam analisis sentimen. Dataset Lazada Indonesian Reviews terdiri dari ulasan pelanggan dalam bahasa Indonesia. Langkah-langkah yang dilakukan selama preprocessing mencakup:
 -  Pembersihan Data Teks
     a. Semua teks diubah menjadi huruf kecil untuk memastikan konsistensi.
@@ -49,7 +31,7 @@ Proses preprocessing adalah langkah awal untuk mempersiapkan data teks agar dapa
 Setelah preprocessing, teks direpresentasikan dalam bentuk fitur numerik. Teknik yang digunakan:
 TF-IDF (Term Frequency-Inverse Document Frequency) untuk menghitung bobot pentingnya setiap kata dalam ulasan.
 
-# 7. Hasil Klasifikasi
+# 6. Hasil Klasifikasi
 Setelah preprocessing, dataset yang telah diproses digunakan untuk melatih model. Berikut hasil klasifikasi yang dicapai:
 -  Model yang Digunakan
     a. Support Vector Machines digunakan sebagai model baseline.
@@ -75,7 +57,7 @@ Model dievaluasi menggunakan beberapa metrik utama:
       Negatif Salah: 457  | Negatif Benar: 2234
 
 
-# 9. Kontribusi
+# 7. Kontribusi
 Jika Anda ingin berkontribusi pada proyek ini:
 
 Fork repository.
