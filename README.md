@@ -40,7 +40,7 @@ Setelah preprocessing, dataset yang telah diproses digunakan untuk melatih model
 Model dievaluasi menggunakan beberapa metrik utama:
   a. Akurasi: Persentase prediksi benar dari keseluruhan dataset.
 
-# hasil evaluasi (menggunakan SVC):
+## hasil evaluasi (menggunakan SVC):
 -  Akurasi: 93%
 -  Confusion Matrix
     Confusion matrix menunjukkan performa model dalam memprediksi kelas sentimen:
@@ -48,7 +48,7 @@ Model dievaluasi menggunakan beberapa metrik utama:
       Positif Benar: 2525 | Positif Salah: 130
       Negatif Salah: 245  | Negatif Benar: 2446
 
-# hasil evaluasi (menggunakan KNN):
+## hasil evaluasi (menggunakan KNN):
 -  Akurasi: 85%
 -  Confusion Matrix
     Confusion matrix menunjukkan performa model dalam memprediksi kelas sentimen:
