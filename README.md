@@ -57,14 +57,9 @@ Model dievaluasi menggunakan beberapa metrik utama:
       Negatif Salah: 457  | Negatif Benar: 2234
 
 
-# 7. Kontribusi
-Jika Anda ingin berkontribusi pada proyek ini:
+# 7. Kesimpulan
 
-Fork repository.
-Buat branch baru untuk fitur Anda (git checkout -b feature-name).
-Commit perubahan (git commit -m 'Menambahkan fitur baru').
-Push ke branch baru (git push origin feature-name).
-Ajukan pull request.
-10. Lisensi
+
+# 10. Lisensi
 Proyek ini dilisensikan di bawah MIT License.
 
