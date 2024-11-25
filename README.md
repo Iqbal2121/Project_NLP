@@ -52,9 +52,6 @@ Model dievaluasi menggunakan beberapa metrik utama:
 -  Akurasi: 85%
 -  Confusion Matrix
     Confusion matrix menunjukkan performa model dalam memprediksi kelas sentimen:
-      Prediksi Positif    | Prediksi Negatif
-      Positif Benar: 2334 | Positif Salah: 321
-      Negatif Salah: 457  | Negatif Benar: 2234
 
 
 # 7. Kesimpulan
